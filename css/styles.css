@@ -57,7 +57,7 @@ h1 {                    /* Use this block to temporarily view borders */
 #nav li {
   float: right;
   margin-left: 30px;
-  background-color: yellow;
+  background-color: #FFB03B;  /*  Change this color once site is deployed  */
   padding: 8px;
   border: 1px white;
   border-radius: 5px;
