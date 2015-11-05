@@ -3,8 +3,8 @@
 body {
     background: linear-gradient(
       to bottom,
-      red,
-      yellow
+      #FFF0A5,
+      #FFB03B
     );
     margin: 0;
     padding: 0;
