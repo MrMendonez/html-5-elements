@@ -17,7 +17,7 @@ header, nav, section, article, aside, footer, h1 {
     border-width: 2px;
 }
 
-h1 {                    /* Use this block to temporarily view borders */
+h1 {                /* Use this block to temporarily view borders */
     border-width: 1px;
 }
 
@@ -42,7 +42,6 @@ h1 {                    /* Use this block to temporarily view borders */
 #nav-area {
   width: 860px;
   height: 60px;
-  float: right;
 }
 
 #nav {
@@ -67,5 +66,8 @@ h1 {                    /* Use this block to temporarily view borders */
   background-color: orange;
 }
 
+header {
+  margin-top: 2px
+}
 
 
