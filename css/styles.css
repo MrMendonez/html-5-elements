@@ -15,6 +15,7 @@ header, nav, section, article, aside, footer, h1 {
     border-style: solid;
     padding: 0px 15px;
     border-width: 2px;
+    margin: 5px;
 }
 
 h1 {                /* Use this block to temporarily view borders */
@@ -42,6 +43,8 @@ h1 {                /* Use this block to temporarily view borders */
 #nav-area {
   width: 860px;
   height: 60px;
+/*  position: fixed;
+  top: 0px;*/
 }
 
 #nav {
