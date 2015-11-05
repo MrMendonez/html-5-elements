@@ -32,6 +32,7 @@ h1 {                /* Use this block to temporarily view borders */
 
 #banner-title {
   text-align: center;
+  margin-top: 65px;
 }
 
 .container {
@@ -43,8 +44,8 @@ h1 {                /* Use this block to temporarily view borders */
 #nav-area {
   width: 860px;
   height: 60px;
-/*  position: fixed;
-  top: 0px;*/
+  position: fixed;
+  top: 0px;
 }
 
 #nav {
