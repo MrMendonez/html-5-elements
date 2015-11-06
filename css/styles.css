@@ -10,21 +10,17 @@ body {
     padding: 0;
     font-family: 'Raleway', sans-serif;
 }
-
-header, article, aside, footer, h1 {
+/*
+article, aside, footer, h1 {
     border-style: solid;
     padding: 0px 15px;
     border-width: 2px;
     margin: 5px;
-}
+}*/
 
-nav, section {
-  border-style: solid;
-}
-
-h1 {                /* Use this block to temporarily view borders */
+/*h1 {                 Use this block to temporarily view borders 
     border-width: 1px;
-}
+}*/
 
 /*#banner {
     position: absolute;
@@ -56,7 +52,7 @@ h1 {                /* Use this block to temporarily view borders */
 
 #nav {
   list-style: none;
-  margin-left: 320px;
+  margin-left: 25%;
 }
 
 #nav a {
@@ -94,8 +90,45 @@ footer {
   text-align: right;
 }
 
-@media screen and (min-width: 500px) and (max-width: 1280px) {
-  .desktop-only { display: none; }
+@media screen and (min-width: 320px) and (max-width: 1280px) {
+
+  #nav {
+    margin-left: 0;
+  }
+
+  #nav-area {
+    position: absolute;
+    
+  }
+
+  #nav li {
+    float: none;
+    margin-left: 30px;
+    background-color: transparent;  /*  Change this color once site is deployed  */
+    padding: 8px;
+    border: 1px white;
+    border-radius: 5px;
+    margin-top: -5px;
+  }
+
+
+  #banner-title {
+  margin-top: 200px;
+}
+
+#nav li:hover {
+  background-color: transparent;
+}
+
+/*  h1, p {         figure out how to get text to be responsive
+    width: 100%;
+  } */
+
+  aside {
+    position: static;
+    width: 100%;
+  }
+
 }
 
 
