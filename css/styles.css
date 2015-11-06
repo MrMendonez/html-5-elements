@@ -54,14 +54,9 @@ h1 {                /* Use this block to temporarily view borders */
   
 }
 
-nav ul {
-  margin: auto;
-  padding: 0;
-}
-
 #nav {
   list-style: none;
-  width: 50%;
+  margin-left: 320px;
 }
 
 #nav a {
@@ -76,7 +71,7 @@ nav ul {
   padding: 8px;
   border: 1px white;
   border-radius: 5px;
-  margin-top: 10px;
+  margin-top: -5px;
 }
 
 #nav li:hover {
@@ -94,8 +89,13 @@ aside {
   width: 200px;
 }
 
+
 footer {
   text-align: right;
+}
+
+@media screen and (min-width: 500px) and (max-width: 1280px) {
+  .desktop-only { display: none; }
 }
 
 
