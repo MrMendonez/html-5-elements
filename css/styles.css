@@ -47,7 +47,7 @@ article, aside, footer, h1 {
   width: 100%;
   position: fixed;
   top: 0px;
-  
+  z-index: 100;
 }
 
 #nav {
@@ -96,9 +96,15 @@ img {
     height: auto;
 }
 
-#pr-pool-text {
+img.fifty-percent {
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+}
+
+#puerto-rico-text {
   position: relative;
-  bottom: 60px;
+  bottom: 600px;
   left: 75px;
 }
 
@@ -106,6 +112,12 @@ img {
   position: relative;
   bottom: 65px;
   left: 5px;
+}
+
+#france-text {
+  position: relative;
+  bottom: 650px;
+  left: 275px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 1280px) {
