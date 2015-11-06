@@ -174,8 +174,7 @@ footer p {
   } */
 
   aside {
-    position: static;
-    width: 50%;
+    display: none;
   }
 
   #social-media {
