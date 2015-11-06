@@ -131,6 +131,13 @@ img.fifty-percent {
   color: white;
 }
 
+#spain-text {
+  position: relative;
+  bottom: 75px;
+  left: 15px;
+  color: white;
+}
+
 footer p {
   padding-right: 20px;
 }
