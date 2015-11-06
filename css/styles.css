@@ -168,6 +168,11 @@ footer p {
     width: 100%;
   }
 
+  #social-media {
+  position: static;
+  }
+}
+
 }
 
 
