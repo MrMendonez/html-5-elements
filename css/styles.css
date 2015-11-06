@@ -89,6 +89,7 @@ aside {
 #social-media {
   position: fixed;
   top: 675px;
+  right: -60px;
 }
 
 #social-media a {
@@ -99,6 +100,11 @@ aside {
 
 #social-media a:hover {
   color: gray;
+}
+
+#copyright {
+  position: fixed;
+  top: 690px;
 }
 
 .small-text {
