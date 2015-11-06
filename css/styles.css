@@ -175,12 +175,14 @@ footer p {
   }
 
   #social-media {
-  position: static;
+  position: relative;
+  left: 220px;
   font-size: 2em;
   }
 
   #copyright {
-  position: static;
+  position: relative;
+  left: 50%;
   font-size: 2em;
   top: 700px;
   }
