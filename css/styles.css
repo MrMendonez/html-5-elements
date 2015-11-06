@@ -178,7 +178,12 @@ footer p {
   position: static;
   font-size: 2em;
   }
-}
+
+  #copyright {
+  position: static;
+  font-size: 2em;
+  top: 700px;
+  }
 
 }
 
