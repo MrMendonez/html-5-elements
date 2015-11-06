@@ -176,13 +176,15 @@ footer p {
 
   #social-media {
   position: relative;
-  left: 220px;
+  left: 49%;
+  top: 0px;
   font-size: 2em;
   }
 
   #copyright {
   position: relative;
-  left: 50%;
+  left: 45%;
+  top: 0px;
   font-size: 2em;
   top: 700px;
   }
