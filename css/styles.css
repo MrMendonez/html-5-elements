@@ -99,7 +99,6 @@ img {
 img.fifty-percent {
   width: 50%;
   height: auto;
-  margin-left: 25%;
 }
 
 #puerto-rico-text {
@@ -117,7 +116,7 @@ img.fifty-percent {
 #france-text {
   position: relative;
   bottom: 650px;
-  left: 275px;
+  left: 25px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 1280px) {
