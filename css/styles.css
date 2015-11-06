@@ -148,7 +148,7 @@ footer p {
   padding-right: 20px;
 }
 
-/*@media screen and (min-width: 320px) and (max-width: 1280px) {
+@media screen and (min-width: 320px) and (max-width: 1280px) {
 
   .container {
   width: 100%;
@@ -170,7 +170,7 @@ footer p {
     margin-top: -5px;
   }
 
-  h1, p {         figure out how to get text to be responsive
+  h1, p {
     width: 100%;
   } 
 
@@ -200,4 +200,3 @@ footer p {
 }
 
 
-*/
