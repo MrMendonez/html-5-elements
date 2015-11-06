@@ -83,6 +83,7 @@ aside {
   top: 115px;
   right: 0px;
   width: 200px;
+  padding: 10px
 }
 
 
@@ -102,7 +103,6 @@ footer {
   }
 
   #nav li {
-    float: none;
     margin-left: 30px;
     background-color: transparent;  /*  Change this color once site is deployed  */
     padding: 8px;
