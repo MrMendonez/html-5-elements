@@ -11,24 +11,28 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-header, nav, section, article, aside, footer, h1 {
+header, article, aside, footer, h1 {
     border-style: solid;
     padding: 0px 15px;
     border-width: 2px;
     margin: 5px;
 }
 
+nav, section {
+  border-style: solid;
+}
+
 h1 {                /* Use this block to temporarily view borders */
     border-width: 1px;
 }
 
-#banner {
+/*#banner {
     position: absolute;
     display: block;
     margin-left: 15%;
     clip: rect(8px,960px,75px,0px);
     z-index: -100;
-}
+}*/
 
 #banner-title {
   text-align: center;
@@ -42,14 +46,22 @@ h1 {                /* Use this block to temporarily view borders */
 }
 
 #nav-area {
-  width: 860px;
+  background-color: #FFF0A5;
   height: 60px;
+  width: 100%;
   position: fixed;
   top: 0px;
+  
+}
+
+nav ul {
+  margin: auto;
+  padding: 0;
 }
 
 #nav {
   list-style: none;
+  width: 50%;
 }
 
 #nav a {
@@ -58,12 +70,13 @@ h1 {                /* Use this block to temporarily view borders */
 }
 
 #nav li {
-  float: right;
+  float: left;
   margin-left: 30px;
   background-color: #FFB03B;  /*  Change this color once site is deployed  */
   padding: 8px;
   border: 1px white;
   border-radius: 5px;
+  margin-top: 10px;
 }
 
 #nav li:hover {
