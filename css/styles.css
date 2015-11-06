@@ -151,8 +151,9 @@ footer p {
 
   body {
     width: 980px;
+    padding: 0px 10px;
   }
-  
+
   .container {
   width: 100%;
   }
