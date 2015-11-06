@@ -10,25 +10,6 @@ body {
     padding: 0;
     font-family: 'Raleway', sans-serif;
 }
-/*
-article, aside, footer, h1 {
-    border-style: solid;
-    padding: 0px 15px;
-    border-width: 2px;
-    margin: 5px;
-}*/
-
-/*h1 {                 Use this block to temporarily view borders 
-    border-width: 1px;
-}*/
-
-/*#banner {
-    position: absolute;
-    display: block;
-    margin-left: 15%;
-    clip: rect(8px,960px,75px,0px);
-    z-index: -100;
-}*/
 
 #banner-title {
   text-align: center;
@@ -133,7 +114,7 @@ img.fifty-percent {
 
 #amsterdam-text {
   position: relative;
-  bottom: 65px;
+  bottom: 200px;
   left: 5px;
 }
 
@@ -141,6 +122,13 @@ img.fifty-percent {
   position: relative;
   bottom: 650px;
   left: 25px;
+}
+
+#hawaii-text {
+  position: relative;
+  bottom: 650px;
+  left: 575px;
+  color: white;
 }
 
 footer p {
