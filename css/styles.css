@@ -87,6 +87,13 @@ header {
   margin-top: 2px
 }
 
+aside {
+  position: absolute;
+  top: 115px;
+  right: 0px;
+  width: 200px;
+}
+
 footer {
   text-align: right;
 }
