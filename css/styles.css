@@ -86,8 +86,26 @@ aside {
   padding: 0px 5px
 }
 
+#social-media {
+  position: fixed;
+  top: 675px;
+}
 
-footer {
+#social-media a {
+  padding-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+#social-media a:hover {
+  color: gray;
+}
+
+.small-text {
+  font-size: 0.8em;
+}
+
+.text-align-right {
   text-align: right;
 }
 
@@ -117,6 +135,10 @@ img.fifty-percent {
   position: relative;
   bottom: 650px;
   left: 25px;
+}
+
+footer p {
+  padding-right: 20px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 1280px) {
