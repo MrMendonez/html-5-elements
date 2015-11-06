@@ -149,6 +149,10 @@ footer p {
 
 @media screen and (min-width: 320px) and (max-width: 1280px) {
 
+  .container {
+  width: 100%;
+}
+
   #nav {
     margin-left: 0;
   }
@@ -176,14 +180,14 @@ footer p {
 
   #social-media {
   position: relative;
-  left: 49%;
+  left: 45%;
   top: 0px;
   font-size: 2em;
   }
 
   #copyright {
   position: relative;
-  left: 45%;
+  left: 40%;
   top: 0px;
   font-size: 2em;
   }
