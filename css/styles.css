@@ -102,6 +102,12 @@ img {
   left: 100px;
 }
 
+#amsterdam-text {
+  position: relative;
+  bottom: 50px;
+  left: 5px;
+}
+
 @media screen and (min-width: 320px) and (max-width: 1280px) {
 
   #nav {
