@@ -88,7 +88,7 @@ header {
 }
 
 aside {
-  position: relative;
+  position: absolute;
   top: 115px;
   right: 0px;
   width: 200px;
