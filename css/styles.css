@@ -173,7 +173,7 @@ footer p {
     width: 100%;
   } */
 
-  aside {
+ .desktop-only {
     display: none;
   }
 
